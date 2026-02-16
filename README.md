@@ -1,13 +1,3 @@
-# IvaSMS Selenium Bot
-
-Telegram bot for automating SMS retrieval from IvaSMS.com using Selenium with "Headed" Chrome support (via Xvfb).
-
-## Features
-- **Auto-Login**: Automatically logs in to IvaSMS.
-- **Smart SMS Fetching**: Parses Google codes, OTPs, and generic messages.
-- **Admin Panel**: Manage stock, broadcast messages, and view stats.
-- **Docker Support**: "2026-ready" deployment with a single command.
-- **Stealth Mode**: Uses `undetected-chromedriver` and Xvfb to run a real Chrome browser in a virtual display, avoiding bot detection.
 
 ## 🚀 Deployment (VPS / Docker)
 
