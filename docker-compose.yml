@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  bot:
+    build: .
+    container_name: ivas_bot
+    restart: unless-stopped
+    volumes:
+      - ./bot_data.db:/app/bot_data.db
+      - ./chrome_debug_profile:/app/chrome_debug_profile
+      # Map downloads if you want to inspect them locally
+      - ./downloads:/app/downloads
+    env_file:
+      - .env
+    # Important: Increase shared memory size to prevent Chrome crashes
+    shm_size: '2gb' 

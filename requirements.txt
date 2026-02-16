@@ -1,0 +1,7 @@
+selenium
+undetected-chromedriver
+python-telegram-bot
+beautifulsoup4
+python-dotenv
+pyvirtualdisplay
+xvfbwrapper

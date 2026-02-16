@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.env
+.env.*
+.DS_Store
+chrome_debug_profile/
+*.db
+*.log
+downloads/
